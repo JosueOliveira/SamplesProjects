@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Application>
+  <ActionDesign>
+    <Actions>
+      <Action Id="MyButtonSave" CustomCSSClassName="blueItem" />
+    </Actions>
+  </ActionDesign>
+  <NavigationItems>
+    <Items>
+      <Item Id="Consultar Pedidos">
+        <Items>
+          <Item Id="ConsultarPedido_ListView" ViewId="ConsultarPedido_DetailView" />
+        </Items>
+      </Item>
+    </Items>
+  </NavigationItems>
+  <Options CollectionsEditMode="Edit" />
+  <SchemaModules>
+    <SchemaModule Name="SystemAspNetModule" Version="16.2.9.0" IsNewNode="True" />
+    <SchemaModule Name="SystemModule" Version="16.2.9.0" IsNewNode="True" />
+  </SchemaModules>
+  <Views>
+    <ListView Id="ConsultarPedido_Pedidos_ListView" AllowUnlink="False" AllowLink="False" />
+  </Views>
+</Application>
