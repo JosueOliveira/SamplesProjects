@@ -108,6 +108,12 @@
     <Compile Include="Controllers\ButtonController.Designer.cs">
       <DependentUpon>ButtonController.cs</DependentUpon>
     </Compile>
+    <Compile Include="Controllers\ListViewControllers.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controllers\ListViewControllers.Designer.cs">
+      <DependentUpon>ListViewControllers.cs</DependentUpon>
+    </Compile>
     <Compile Include="WebModule.cs">
       <SubType>Component</SubType>
     </Compile>
